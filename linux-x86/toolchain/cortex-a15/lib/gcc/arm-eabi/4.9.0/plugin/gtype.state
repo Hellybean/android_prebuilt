@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.9.0 20140207 (experimental)")
+(!version  "4.9.0 20140210 (experimental)")
 (!srcdir  "/mnt/jenkins/workspace/linaro-android_toolchain-4.9-trunk/build/objdir/../build/../gcc/gcc-4.9/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 189
@@ -15428,15 +15428,15 @@
    (!type already_seen 787)
   )
   gc_pointed_to "vec<tree_gc_vec,va_gc>"
-  (!srcfileloc  "c-family/c-common.c" 11492)
+  (!srcfileloc  "c-family/c-common.c" 11546)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "c-family/c-common.c" 11492)
+    (!srcfileloc  "c-family/c-common.c" 11546)
     nil )
    (!pair  "tree_gc_vec"
     (!type already_seen 45)
-    (!srcfileloc  "c-family/c-common.c" 11492)
+    (!srcfileloc  "c-family/c-common.c" 11546)
     nil )
   )
  )
@@ -15452,15 +15452,15 @@
    (!type already_seen 790)
   )
   gc_pointed_to "vec<const_char_p,va_gc>"
-  (!srcfileloc  "c-family/c-common.c" 8958)
+  (!srcfileloc  "c-family/c-common.c" 9012)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "c-family/c-common.c" 8958)
+    (!srcfileloc  "c-family/c-common.c" 9012)
     nil )
    (!pair  "const_char_p"
     (!type already_seen 36)
-    (!srcfileloc  "c-family/c-common.c" 8958)
+    (!srcfileloc  "c-family/c-common.c" 9012)
     nil )
   )
  )
@@ -22989,23 +22989,23 @@
   nil )
  (!pair  "vec<tree_gc_vec,va_gc>"
   (!type already_seen 787)
-  (!srcfileloc  "c-family/c-common.c" 11492)
+  (!srcfileloc  "c-family/c-common.c" 11546)
   nil )
  (!pair  "tree_gc_vec"
   (!type already_seen 45)
-  (!srcfileloc  "c-family/c-common.c" 11491)
+  (!srcfileloc  "c-family/c-common.c" 11545)
   nil )
  (!pair  "vec<const_char_p,va_gc>"
   (!type already_seen 790)
-  (!srcfileloc  "c-family/c-common.c" 8958)
+  (!srcfileloc  "c-family/c-common.c" 9012)
   nil )
  (!pair  "const_char_p"
   (!type already_seen 29)
-  (!srcfileloc  "c-family/c-common.c" 8957)
+  (!srcfileloc  "c-family/c-common.c" 9011)
   nil )
  (!pair  "disabled_builtin"
   (!type already_seen 792)
-  (!srcfileloc  "c-family/c-common.c" 5756)
+  (!srcfileloc  "c-family/c-common.c" 5762)
   nil )
  (!pair  "c_binding_ptr"
   (!type already_seen 583)
@@ -23021,7 +23021,7 @@
   nil )
  (!pair  "c_arg_tag"
   (!type already_seen 804)
-  (!srcfileloc  "c/c-tree.h" 364)
+  (!srcfileloc  "c/c-tree.h" 355)
   nil )
  (!pair  "c_expr_t"
   (!type already_seen 807)
@@ -25076,18 +25076,18 @@
   nil )
  (!pair  "lto_eh_personality_decl"
   (!type already_seen 5)
-  (!srcfileloc  "lto/lto.c" 3304)
+  (!srcfileloc  "lto/lto.c" 3308)
   nil )
  (!pair  "real_file_decl_data"
   (!type already_seen 945)
-  (!srcfileloc  "lto/lto.c" 2871)
+  (!srcfileloc  "lto/lto.c" 2875)
   (!options 
    (!option length string  "real_file_count + 1")
   )
  )
  (!pair  "all_file_decl_data"
   (!type already_seen 945)
-  (!srcfileloc  "lto/lto.c" 2839)
+  (!srcfileloc  "lto/lto.c" 2843)
   (!options 
    (!option length string  "lto_stats.num_input_files + 1")
   )
@@ -25698,7 +25698,7 @@
   (!type array 1563 nil  gc_used "2" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "fortran/trans-stmt.c" 2114)
+  (!srcfileloc  "fortran/trans-stmt.c" 2125)
   nil )
  (!pair  "dt_parm"
   (!type already_seen 5)
@@ -26177,28 +26177,28 @@
  )
  (!pair  "tree_vector_cache"
   (!type already_seen 788)
-  (!srcfileloc  "c-family/c-common.c" 11492)
+  (!srcfileloc  "c-family/c-common.c" 11546)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "optimize_args"
   (!type already_seen 791)
-  (!srcfileloc  "c-family/c-common.c" 8958)
+  (!srcfileloc  "c-family/c-common.c" 9012)
   nil )
  (!pair  "compound_literal_number"
   (!type already_seen 9)
-  (!srcfileloc  "c-family/c-common.c" 5727)
+  (!srcfileloc  "c-family/c-common.c" 5733)
   nil )
  (!pair  "built_in_attributes"
   (!type array 1574 nil  gc_used "(int) ATTR_LAST" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "c-family/c-common.c" 5102)
+  (!srcfileloc  "c-family/c-common.c" 5108)
   nil )
  (!pair  "type_hash_table"
   (!type already_seen 53)
-  (!srcfileloc  "c-family/c-common.c" 4812)
+  (!srcfileloc  "c-family/c-common.c" 4818)
   (!options 
    (!option param_is type 
     (!type already_seen 7)
@@ -26207,7 +26207,7 @@
  )
  (!pair  "registered_builtin_types"
   (!type already_seen 5)
-  (!srcfileloc  "c-family/c-common.c" 3471)
+  (!srcfileloc  "c-family/c-common.c" 3477)
   nil )
  (!pair  "ext_block"
   (!type already_seen 5)
